@@ -1,0 +1,17 @@
+<!--pages/my/my.wxml-->
+<view>
+  <image src='../../images/20181117111938_title.png' class='title'></image>
+</view>
+<view>
+  <input class='uaerIp' value='请输入手机号码'></input>
+  <text>\n</text>
+  <input class='passIp' value='请输入密码'></input>
+</view>
+<view>
+  <text>\n\n</text>
+  <button class='loginBut' bindtap='login'>登录</button>
+</view>
+<view class="forget-reg">
+  <text class="forget">忘记密码</text>
+  <text class="reg">注册</text>
+</view>

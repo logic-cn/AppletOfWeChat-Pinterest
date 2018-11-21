@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+<!-- <view>
+    <image src='../../images/index_a.png' class='im'></image>
+</view> -->
+
+<view>
+  <image src='../../images/20181118164310_index_1.png' class='im1'></image>
+</view>
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{banner_list[0].banner}}">
+      <swiper-item>
+        <image src="{{item.pic_url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view>
+  <view class='flex-wrp'>
+    <image src='../../images/20181118185044_im2.png' class='im2' bindtap='my'></image>
+    <image src='../../images/20181118185131_im3.png' class='im2' bindtap='my'></image>
+  </view>
+  <view class='flex-wrp'>
+    <image src='../../images/20181118185203_im4.png' class='im2' bindtap='control'></image>
+    <image src='../../images/20181118185238_im5.png' class='im2' bindtap='car'></image>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+/* pages/my/my.wxss */
+.title{
+  text-align: center;
+  align-content: center;
+  left: 500px;
+}
+.uaerIp{
+  background-color: #fff2e9;
+  text-align: center;
+  color: #808080;
+  height: 50px;
+}
+.passIp{
+  background-color: #fff2e9;
+  text-align: center;
+  color: #808080;
+  height: 50px;
+}
+.loginBut{
+  color: #ffffff;
+  background-color: #ec6238;
+}
+.forget-reg{
+  font-size: 24rpx;
+  color: #ec6238;
+  margin: 0 30rpx;
+}
+.reg{
+  float: right;
+}

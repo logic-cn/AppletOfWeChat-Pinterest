@@ -1,0 +1,17 @@
+<!--pages/control/controller.wxml-->
+<!-- <image src='../../images/20181116191938.png' class='conimage'></image> -->
+<view class='main'>
+  <text class='sp'>\n</text>
+  <view class="flex-wrp">
+    <image src='../../images/20181116214915_1.png' mode='left' class='im' bindtap='unlockCar'></image>
+    <image src='../../images/20181116214915_1.png' mode='right' class='im' bindtap='lockCar'></image>
+  </view>
+  <view class="flex-wrp">
+    <image src='../../images/20181116214940_2.png' mode='left' class='im' bindtap='startCar'></image>
+    <image src='../../images/20181116214940_2.png' mode='right' class='im' bindtap='stopCar'></image>
+  </view>
+  <view class="flex-wrp">
+    <image src='../../images/20181116215006_3.png' bindtap='startCar' class='im5' bindtap='whistle'></image>
+  </view>
+  <text class='sp'>\n\n\n</text>
+</view>

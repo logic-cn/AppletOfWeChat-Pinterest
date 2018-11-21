@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/control/controller",
+    "pages/car/car",
+    "pages/my/my",
+    "pages/entry/entry"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a0a0a0",
+    "selectedColor": "#ec5c30",
+    "backgroundColor": "#f2f2f2",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab_home_def@2x.png",
+        "selectedIconPath": "images/tab_home_sel@2x.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "车讯",
+        "iconPath": "images/tab_car_source_def@2x.png",
+        "selectedIconPath": "images/tab_car_source_sel@2x.png"
+      },
+      {
+        "pagePath": "pages/control/controller",
+        "text": "远程遥控",
+        "iconPath": "images/20181116185235.png",
+        "selectedIconPath": "images/22.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tab_user_def@2x.png",
+        "selectedIconPath": "images/tab_user_sel@2x.png"
+      }
+    ]
+  }
+}

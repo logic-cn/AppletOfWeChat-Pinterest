@@ -1,0 +1,22 @@
+/* pages/control/controller.wxss */
+.main{
+  background-color: #e6ebee;
+  flex-direction: row;
+}
+
+.flex-wrp{
+  display: flex;
+  flex-direction: row;
+}
+
+.im{
+  width: 190px;
+  height: 154px;
+}
+.im5{
+  width:380px;
+  height:155px;
+}
+.sp{
+  background-color: #e6ebee;
+}
